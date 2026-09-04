@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_download"
+        android:title="@string/download_dialog_title" />
+    <item
+        android:id="@+id/menu_user_agent"
+        android:title="@string/menu_user_agent">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ua_default"
+                    android:title="@string/menu_user_agent_default" />
+                <item
+                    android:id="@+id/ua_chrome_desktop"
+                    android:title="@string/menu_user_agent_chrome_desktop" />
+                <item
+                    android:id="@+id/ua_firefox_desktop"
+                    android:title="@string/menu_user_agent_firefox_desktop" />
+                <item
+                    android:id="@+id/ua_safari_ios"
+                    android:title="@string/menu_user_agent_safari_ios" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_media_detection"
+        android:title="@string/menu_media_detection_text"
+        android:checkable="true"
+        android:checked="false" />
+    <item
+        android:id="@+id/menu_current_user_agent"
+        android:title="@string/menu_user_agent_title" />
+    <item
+        android:id="@+id/menu_view_source_code"
+        android:title="@string/view_source_text" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menu_about_text" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit_text" />
+</menu>
