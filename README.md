@@ -21,3 +21,6 @@ Get the APK from the Releases page.
 
 ## Contact
 For bugs or suggestions, please open an issue on GitHub.
+
+## License
+This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
